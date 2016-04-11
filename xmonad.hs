@@ -64,7 +64,7 @@ myLogHook h = dynamicLogWithPP $ defaultPP
 
 myTerminal = "xfce4-terminal"
 myXMonadBar = "dzen2 -dock -xs 1 -fn Inconsolata-10 -ta l -bg '" ++ backgroundColor ++ "' -w '550' -h '24'"
-topBar = "ruby ~/sh/make-status.rb | lemonbar -f Inconsolata-10 -f \"Material Icons:size=10\" -g 1920x30 -B '" ++ backgroundColor ++ "' -F '" ++ textColor ++ "' -U '" ++ color5 ++ "' -u 5"
+topBar = "ruby ~/proj/de/scripts/make-status.rb | lemonbar -f Inconsolata-10 -f \"Material Icons:size=10\" -g 1920x30 -B '" ++ backgroundColor ++ "' -F '" ++ textColor ++ "' -U '" ++ color5 ++ "' -u 5"
 bottomBar = "lemonbar -f Inconsolata-10 -b -g 1920x24"
 
 layout' = tall' ||| Full
